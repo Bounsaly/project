@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Lao', sans-serif;
+  }
+  
+  header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color:#2B444B;
+    z-index: 99;
+  }
+
+  header img{
+    width: 30px;
+    height: 100% ;
+    margin-left: 3rem;
+    border-radius: 100%; 
+  }
+  ul{
+    display: flex;
+    margin-right: 3rem;
+  
+  }
+  ul li{
+    margin-right: 3rem;
+    list-style: none;
+    font-size: 23PX;
+    transition: .3s;
+  }
+  li:hover{
+    transform: scale(1.2);
+   
+  }
+  ul li a{
+    text-decoration:none ;
+    color: aliceblue;
+  }
+  li a:hover{
+    color: rgb(255, 51, 0);
+  }
+
+  header ul li ul{
+    position: absolute;
+    display: none;
+    background-color: #2B444B;
+    border-radius: 0px 0px 5px 5px;
+  }
+
+  header ul li:hover ul{
+    display: block;
+  }
+
+  header ul li ul li{
+    line-height: 1;
+    border-radius: 5px;
+    padding: 6px;
+    width: 100%;
+  }
+
+  header ul li ul li a{
+    padding: 10px 16px;
+    width: 100%;
+  }
+  
+  .text{
+    color: aliceblue;
+  }
+  .food-container{
+    margin-bottom: 150px !important;
+    
+}
+span{
+    color: red;
+  }
